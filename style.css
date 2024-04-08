@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+/*                                 START>----------------------------HEADER---------------------------                                 */
+
+.background{
+    background-image: url(image/netflix-background.jpg);
+    height: 700px;
+    background-size: cover;
+    opacity: 0.4;
+    /* border-bottom: 9px solid rgb(83, 82, 82); */
+}
+
+.logo img{
+    height: 80px;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+    display: inline-block;
+}
+
+.languages select{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 27px;
+    left: 1121px;
+    border-radius: 5px;
+    padding: 6px 37px;
+    appearance: none;
+}
+
+.earth-icon img{
+    height: 22px;
+    width: 23px;
+    position: absolute;
+    top: 33px;
+    left: 1129px;
+    z-index: 5;
+}
+
+.arrow img{
+    height: 17px;
+    position: absolute;
+    top: 33px;
+    left: 1215px;
+    z-index: 3;
+}
+
+.sign-in{
+    position: absolute;
+    top: 27px;
+    left: 1270px;
+    padding: 8px 19px ;  
+    background-color: #de0e0e;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s 0s ease-out ;
+    cursor: pointer;
+}
+
+.sign-in:hover,.get-started button:hover{
+    background-color: #ba0707;
+}
+
+.content h1{
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    top: 276px;
+    font-size: 48px;
+    left: 310px;
+}
+
+.content p{
+    color: white;
+    position: absolute;
+    top: 351px;
+    left: 582px;
+    font-size: 25px;
+}
+
+.content h3{
+    color: white;
+    position: absolute;
+    top: 410px;
+    left: 436px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+/* .mail-get{
+    flex-wrap: wrap;
+} */
+
+.mail form input{
+    position: absolute;
+    top: 460px;
+    left: 463px;
+}
+
+::placeholder{
+    color: rgb(206, 198, 198);
+}
+
+.mail form input {
+    padding: 15px 176px 15px 14px;
+    background-color: rgb(33 28 28 / 77%);
+    border: 1px solid gray;
+    caret-color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+}
+
+.get-started button{
+    background-color: #de0e0e;
+    color: white;
+    padding: 10.5px 20px;
+    position: absolute;
+    top: 460px;
+    left: 858px;
+    font-size: 25px;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s 0s ease-out ;
+    cursor: pointer;
+    font-weight: 600;
+}
+/*                                 ----------------------------HEADER---------------------------<END                                 */
+
+
+/*                                 START>----------------------------MAIN---------------------------                                 */
+
+/*SECOND SECTION*/
+
+.second-section{
+    height: 576px;
+    overflow: hidden;
+    /* border-bottom: 9px solid rgb(83 82 82 / 41%); */
+}
+
+.text{
+    margin: 195px 172px;
+    display: inline-block;
+}
+
+.text h3{
+    line-height: 87px;
+    color: white;
+    font-weight: 800;
+    font-size: 2.9rem;
+}
+
+.text p{
+    color: white;
+    font-size: 1.5rem;
+    width: 611px;
+}
+
+.Tv-video img{
+    height: 429px;    
+    position: absolute;
+    top: 772px;
+    left: 771px;
+    z-index: 4;
+}
+
+.Tv-video video{
+    height: 231px;
+    position: absolute;
+    top: 862px;
+    left: 849px;
+}
+
+/* THIRD SECTION */
+
+.third-section{
+    height: 580px;
+}
+section{
+    border-bottom: 9px solid rgb(83 82 82 / 41%);
+
+}
+.third-section .mobile img{
+    height: 430px;
+    margin-left: 177px;
+    margin-top: 62px;
+}
+
+.downloading{
+    height: 100px;
+    width: 308px;
+    position: absolute;
+    top: 1652px;
+    left: 307px;
+    background-color: black;
+    border: 2px solid #626262;
+    border-radius: 10px;
+    box-shadow: 1px 0px 20px 0px black;
+}
+
+.downloading #image1{
+    height: 81px;
+    margin-left: 12px;
+    margin-top: 9px;
+}
+
+.downloading #p1{
+    color: white;
+    margin-top: -64px;
+    margin-left: 85px;
+    font-weight: 650;
+    font-size: 16.5px;
+}
+
+.downloading #p2 {
+    color: #3c3cfb;
+    margin-top: 0px;
+    margin-left: 85px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.downloading #image2{
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 252px;   
+    user-select: none;
+}
+
+.text-content h3{
+    color: white;
+    font-size: 47px;
+    width: 586px;
+    display: inline-block;
+    position: absolute;
+    left: 771px;
+    top: 1457px;
+    font-weight: 800;
+}
+
+.text-content p{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 1590px;
+    left: 770px;
+    width: 573px;
+}
+
+/* FOURTH SECTION */
+
+.fourth-section{
+    height: 567px;
+}
+
+.fourth-section h3 {
+    color: white;
+    font-size: 48px;
+    width: 586px;
+    position: absolute;
+    left: 169px;
+    top: 2069px;
+    font-weight: 800;
+}
+
+.fourth-section p {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 1590px;
+    left: 169px;
+    top: 2147px;
+    width: 573px;
+}
+
+.fourth-section img{
+    height: 429px;
+    position: absolute;
+    top: 1942px;
+    left: 771px;
+    z-index: 4;
+}
+
+.fourth-section video{
+    height: 213px;
+    position: absolute;
+    top: 1980px;
+    left: 865px;
+}
+
+/* FIFTH SECTION */
+
+.fifth-section{
+    height: 575px;
+}
+
+.fifth-section img{
+    height: 438px;
+    position: absolute;
+    left: 175px;
+    top: 2519px;
+}
+
+.fifth-section h3 {
+    color: white;
+    font-size: 47px;
+    width: 586px;
+    display: inline-block;
+    position: absolute;
+    left: 771px;
+    top: 2642px;
+    font-weight: 800;
+}
+
+.fifth-section  p {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 2718px;
+    left: 771px;
+    width: 573px;
+}
+
+/* SIXTH SECTION */
+
+.sixth-section{
+    height: 850px;
+    border-bottom: none;
+}
+
+.sixth-section h3 {
+    color: white;
+    font-size: 47px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 65px;
+}
+
+
+.d1{
+    margin-left: 184px;
+    margin-top: 23px;
+}
+
+ .sum1{
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1140px;
+    line-height: 3.5;
+    font-size: 24px;
+    list-style: none;
+    height: 85px;
+    padding-left: 21px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+details summary:hover{
+    background-color: #b1b1b159;
+}
+.para1{
+    padding: 22px 28px;
+    font-size: 24px;
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1105px;
+}
+
+.d2{
+    margin-left: 184px;
+    margin-top: 9px;
+}
+
+ .sum2{
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1140px;
+    line-height: 3.5;
+    font-size: 24px;
+    list-style: none;
+    height: 85px;
+    padding-left: 21px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.para2{
+    padding: 22px 28px;
+    font-size: 24px;
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1105px;
+}
+
+.d3{
+    margin-left: 184px;
+    margin-top: 9px;
+}
+
+ .sum3{
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1140px;
+    line-height: 3.5;
+    font-size: 24px;
+    list-style: none;
+    height: 85px;
+    padding-left: 21px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.para3{
+    padding: 22px 28px;
+    font-size: 24px;
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1105px;
+}
+
+.d4{
+    margin-left: 184px;
+    margin-top: 9px;
+}
+
+ .sum4{
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1140px;
+    line-height: 3.5;
+    font-size: 24px;
+    list-style: none;
+    height: 85px;
+    padding-left: 21px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.para4{
+    padding: 22px 28px;
+    font-size: 24px;
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1105px;
+}
+
+.d5{
+    margin-left: 184px;
+    margin-top: 9px;
+}
+
+ .sum5{
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1140px;
+    line-height: 3.5;
+    font-size: 24px;
+    list-style: none;
+    height: 85px;
+    padding-left: 21px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.para5{
+    padding: 22px 28px;
+    font-size: 24px;
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1105px;
+}
+
+.d6{
+    margin-left: 184px;
+    margin-top: 9px;
+}
+
+ .sum6{
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1140px;
+    line-height: 3.5;
+    font-size: 24px;
+    list-style: none;
+    height: 85px;
+    padding-left: 21px;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    transition: background-color 0.3s ease;
+    user-select: none;
+}
+
+.para6{
+    padding: 22px 28px;
+    font-size: 24px;
+    background-color: #6a6a6a6b;
+    color: white;
+    width: 1105px;
+}
+
+.membership p{
+    color: white;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+
+.sixth-section .mail2 form input{
+    position: relative;
+    top: 24px;
+    left: 463px;
+}
+
+::placeholder{
+    color: rgb(206, 198, 198);
+}
+
+.mail2 form input {
+    padding: 15px 176px 15px 14px;
+    background-color: rgb(33 28 28 / 55%);
+    border: 1px solid gray;
+    caret-color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+}
+
+.get-started2 button{
+    background-color: #de0e0e;
+    color: white;
+    padding: 10.5px 20px;
+    position: relative;
+    top: -30px;
+    left: 858px;
+    font-size: 25px;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s 0s ease-out ;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.get-started2 button:hover{
+    background-color: #ba0707;
+}
+
+/*                                 ----------------------------MAIN---------------------------<END                                 */
+
+
+/*                                 START>----------------------------FOOTER---------------------------                                 */
+
+footer h4{
+    color: red;
+    font-size: 19px;
+    text-transform: capitalize;
+    position: fixed;
+    bottom: 3px;
+    z-index: 10;
+    right: 10px;
+}
+footer h4:hover{
+    color: yellow;
+
+}
+
+footer h4 b{
+    color: white;
+}
